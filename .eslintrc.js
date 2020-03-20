@@ -80,12 +80,13 @@ module.exports = {
   },
 
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@typescript-eslint/parser'
   },
 
   extends: [
     'plugin:vue/strongly-recommended',
     '@vue/standard',
-    'plugin:vue/essential'
+    'plugin:vue/essential',
+    '@vue/typescript'
   ]
 }
